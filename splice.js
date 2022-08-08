@@ -4,6 +4,7 @@
 // console.log(friends)
 const friends = [88,99,77,66,55,44,33];
 const partial = friends.splice(2,4);
+// 2 theke start kore next 4 ta katbe... 
 console.log(partial);
 console.log(friends)
 
