@@ -10,7 +10,7 @@ function cartCalculator(products){
     let sum = 0;
     for(let i = 0; i < products.length; i++){
       const product = products[i];
-      sum = sum + product['price'];
+      sum = sum + product.price;
     }
     return sum;
 }
